@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Entities",
     "\\LoggerService",
     "\\p1"
   ],
-  "SelectedNode": "\\LoggerService\\LoggerManager.cs",
+  "SelectedNode": "\\p1.sln",
   "PreviewInSolutionExplorer": false
 }

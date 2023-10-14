@@ -1,4 +1,6 @@
-﻿namespace Contracts
+﻿using System.Linq.Expressions;
+
+namespace Contracts
 {
     public interface ILoggerManager
     {
@@ -7,4 +9,9 @@
         void LogDebug(string message);
         void LogError(string message);
     }
+
+    
+
+    
+    
 }
