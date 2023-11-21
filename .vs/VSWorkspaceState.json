@@ -3,8 +3,9 @@
     "",
     "\\Entities",
     "\\LoggerService",
-    "\\p1"
+    "\\p1",
+    "\\p1\\Migrations"
   ],
-  "SelectedNode": "\\p1.sln",
+  "SelectedNode": "\\p1\\Migrations",
   "PreviewInSolutionExplorer": false
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
       "projectName": "Contracts",
-      "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
+      "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
       "packagesPath": "C:\\Users\\thu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\obj\\",
+      "outputPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thu\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj": {}
+    "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\thu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj",
+        "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\thu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\LoggerService\\obj\\",
+        "outputPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Contracts\\Contracts.csproj"
+              "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Contracts\\Contracts.csproj"
               }
             }
           }

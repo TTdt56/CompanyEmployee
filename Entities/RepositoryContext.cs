@@ -19,8 +19,15 @@ namespace Entities
         {
             modelBuilder.ApplyConfiguration(new CompanyConfiguration());
             modelBuilder.ApplyConfiguration(new EmployeeConfiguration());
+            modelBuilder.ApplyConfiguration(new HouseConfiguration());
+            modelBuilder.ApplyConfiguration(new ApartmentConfiguration());
+
+
         }
         public DbSet<Company> Companies { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<House> House { get; set; }
+        public DbSet<Apartment> Apartment { get; set; }
+
     }
 }
