@@ -3477,11 +3477,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\p1\\p1.csproj",
+      "projectUniqueName": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\p1\\p1.csproj",
       "projectName": "p1",
-      "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\p1\\p1.csproj",
+      "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\p1\\p1.csproj",
       "packagesPath": "C:\\Users\\thu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\p1\\obj\\",
+      "outputPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\p1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3498,14 +3498,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Entities\\Entities.csproj"
+            "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj"
+            "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\LoggerService\\LoggerService.csproj"
             },
-            "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\thu\\Desktop\\Work\\4k\\prikl\\p1\\Repository\\Repository.csproj"
+            "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\thu\\Desktop\\Work\\Ycheba\\4k\\prikl\\p1\\Repository\\Repository.csproj"
             }
           }
         }

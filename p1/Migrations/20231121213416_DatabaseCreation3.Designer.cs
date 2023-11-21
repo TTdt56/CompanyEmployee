@@ -4,6 +4,7 @@ using Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace p1.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    partial class RepositoryContextModelSnapshot : ModelSnapshot
+    [Migration("20231121213416_DatabaseCreation3")]
+    partial class DatabaseCreation3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -50,48 +53,6 @@ namespace p1.Migrations
                     b.HasIndex("HouseId");
 
                     b.ToTable("Apartment");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("1e707554-3a47-43d1-aae7-e990d385081b"),
-                            ApartmentNumber = 10,
-                            Cost = "6000000",
-                            HouseId = new Guid("cf07407f-a0c4-46cc-870b-850d29c6ac93"),
-                            NumberRooms = 4
-                        },
-                        new
-                        {
-                            Id = new Guid("4d57c4a3-b6c3-464f-bad1-6550d4bf3182"),
-                            ApartmentNumber = 15,
-                            Cost = "4000000",
-                            HouseId = new Guid("cf07407f-a0c4-46cc-870b-850d29c6ac93"),
-                            NumberRooms = 2
-                        },
-                        new
-                        {
-                            Id = new Guid("621d298f-8734-4cbb-814b-9a126c5ba0da"),
-                            ApartmentNumber = 8,
-                            Cost = "4500000",
-                            HouseId = new Guid("cf07407f-a0c4-46cc-870b-850d29c6ac93"),
-                            NumberRooms = 3
-                        },
-                        new
-                        {
-                            Id = new Guid("d67977ae-cb1a-4747-8a02-2b0b2e7d1bd8"),
-                            ApartmentNumber = 17,
-                            Cost = "2500000",
-                            HouseId = new Guid("a539dd53-125b-4eef-9cbe-ab9d9b5bfdd8"),
-                            NumberRooms = 1
-                        },
-                        new
-                        {
-                            Id = new Guid("e4ce4d0b-0725-4a56-8ce9-49333bc3682a"),
-                            ApartmentNumber = 28,
-                            Cost = "2800000",
-                            HouseId = new Guid("a539dd53-125b-4eef-9cbe-ab9d9b5bfdd8"),
-                            NumberRooms = 1
-                        });
                 });
 
             modelBuilder.Entity("Entities.Models.Company", b =>
@@ -215,22 +176,6 @@ namespace p1.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("House");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("cf07407f-a0c4-46cc-870b-850d29c6ac93"),
-                            Address = "Саранск, ул. Коммунистическая, 25а",
-                            NumberFloors = 9,
-                            YearConstruction = 2010
-                        },
-                        new
-                        {
-                            Id = new Guid("a539dd53-125b-4eef-9cbe-ab9d9b5bfdd8"),
-                            Address = "Саранск, ул. Лесная, 64",
-                            NumberFloors = 5,
-                            YearConstruction = 2006
-                        });
                 });
 
             modelBuilder.Entity("Entities.Models.Apartment", b =>
